@@ -1,0 +1,112 @@
+* {
+    font-family: 'Raleway', sans-serif; /*all of the font style is Raleway*/
+}
+
+.logo, .OutdoorCourt, .bowlling, .RockCliming, .fitnessCeentre {
+     width: 90px; /* the size of image */
+}
+
+.schools, .entertainment{ /* images size */
+    width: 375px;
+    height: 200px;
+}
+
+
+
+/* hadeer/navegation */
+ul {
+    list-style-type: none;  /* this is for the li dot I dont want to show the dots  */
+    margin: 0 0; /* vertical: 0 | horizontal: 0 */
+    padding: 0;  /* All sides: 0 padding */
+    overflow: hidden;
+    background-color: #3C3B3A; /* Background-color of the all navbar */
+  }
+  
+/* li {
+    float: right;  the text decration
+} */
+  
+
+li {
+    float: right;
+    display: flex;  /* using a flex  /
+    align-items: center; / Pack items around the center */
+    color: #f2f2f2;
+    padding: 14px 16px;
+} 
+li a {
+    display: block;
+    color: white;
+    text-align: center; /*text align*/
+    size: 16px;
+    padding: 16px 16px; /* vertical: 16px | horizontal 16px*/
+    text-decoration: none; /* I dont want to have lines under the text*/
+}
+
+
+.ARC1 > h1 {
+    font-size: 40px;
+    font-family: 'Raleway';
+}
+
+.discoverImage {
+   width: 299.32px;
+   height: 186.87px;
+}
+
+.image-icons{
+    display: flex;
+    flex-direction: row;
+  }
+
+  input[type=submit] {
+    background-color: #57EEAB; /*  the color submit */
+    color: white;
+    border: #707070;
+    width: 350px;
+    height: 50px;
+    font-size: 32px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px #124A3A;
+
+}
+
+.Dijanelle {
+    background-color: #3C3B3A;
+    color: #D5D6DB;
+    text-align: center; /* the text well be center*/
+    margin: 0 0; /* vertical: 0 | horizontal: 0 */
+    padding: 0;  /* All sides: 0 padding */
+}
+
+.Dijanelletext > p{
+    font-size: 16px;
+}
+
+.Dijanelletext > .h3 {
+    font-size: 24px;
+}
+.simon {
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    border: 5px solid #ddd;
+    margin: 0 0; /* vertical: 0 | horizontal: 0 */
+    padding: 0;  /* All sides: 0 padding */
+}
+footer {
+    background-color: #3C3B3A; /* Background-color of the all footer */   
+    margin: 0 0; /* vertical: 0 | horizontal: 0 */
+    padding: 0;  /* All sides: 0 padding */
+
+}
+
+.icons {
+    text-align: center; /* the text decration*/
+}
+@media screen and (min-width:1024px){
+   .AEC{
+        display: flex;
+        margin: 60px;
+    }
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Boostrap This!</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Bootstrap This!</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="link.html">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 About
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#Grid">Grid</a></li>
+                  <li><a class="dropdown-item" href="#Battin">Battin</a></li>
+                  <li><a class="dropdown-item" href="#Alerts">Alerts</a></li>
+                  <li><a class="dropdown-item" href="#Textandcolour">Text and colour</a></li>
+                  <li><a class="dropdown-item" href="#Cards">Cards</a></li>
+                  <li><a class="dropdown-item" href="#Color">Color</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Benefits">Benefits</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!--This comment for the Grid-->
+    <div class="container" id="Grid">
+        <h2>Grid</h2>
+        <p>The grid system in Bootstrap layouts and aligns information using a sequence of containers, rows, and columns. It is totally responsive and created with flexbox. Here's an example and a more detailed description of how the grid system works.</p>
+        <h4>Example</h4>
+        <div class="row">
+          <div class="col">
+            Column1
+          </div>
+          <div class="col">
+            Column2
+          </div>
+          <div class="col">
+            Column3
+          </div>
+        </div>
+      </div>
+<!--This comment is for Battin-->
+<a><hr class="dropdown-divider"></a>
+    <div class="container" id="Battin">
+        <h3>Battin</h3>
+<p>Bootstrap comes with a number of predefined button styles, each with its own semantic purpose and a few extras for added control.</p>
+<h4>Example</h4>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+    </div>
+    <a><hr class="dropdown-divider"></a>
+<!--This commint for Alerts -->
+<div class="container" id="Alerts">
+    <h2>Alerts</h2>
+    <p>Alerts for any amount of text are provided, as well as an optional close button. Use one of the eight needed contextual classes for correct style.</p>
+    <h4>Example</h4>
+    <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+      </div>
+      <div class="alert alert-secondary" role="alert">
+        A simple secondary alert—check it out!
+      </div>
+      <div class="alert alert-success" role="alert">
+        A simple success alert—check it out!
+      </div>
+      <div class="alert alert-danger" role="alert">
+        A simple danger alert—check it out!
+      </div>
+      <div class="alert alert-warning" role="alert">
+        A simple warning alert—check it out!
+      </div>
+      <div class="alert alert-info" role="alert">
+        A simple info alert—check it out!
+      </div>
+      <div class="alert alert-light" role="alert">
+        A simple light alert—check it out!
+      </div>
+      <div class="alert alert-dark" role="alert">
+        A simple dark alert—check it out!
+      </div>
+      <a><hr class="dropdown-divider"></a>
+</div>
+      <!--This commint for Text and colour-->
+      <div class="container" id="Textandcolour"></div>
+      <h2>Text and colour</h2>
+      <p>The.link-* classes can be used to colorize links. These classes, unlike the.text-* classes, have a :hover and :focus state.</p>
+      <h4>Example</h4>
+      <a href="#" class="link-primary">Primary link</a>
+<a href="#" class="link-secondary">Secondary link</a>
+<a href="#" class="link-success">Success link</a>
+<a href="#" class="link-danger">Danger link</a>
+<a href="#" class="link-warning">Warning link</a>
+<a href="#" class="link-info">Info link</a>
+<a href="#" class="link-light">Light link</a>
+<a href="#" class="link-dark">Dark link</a>
+<a><hr class="dropdown-divider"></a>
+<!--This commint for Cards-->
+<div class="container" id="Cards"></div>
+<h2>Cards</h2>
+<p>Cards are created with as little markup and styling as possible while yet allowing for a great deal of flexibility and customization. They're made with flexbox, so they're easy to align and blend in with other Bootstrap elements. Because they don't have a margin by default, you'll need to utilize spacing tools as needed.</p>
+<h4>Example</h4>
+<div class="card" style="width: 18rem;">
+    <img src="imge/1.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <a><hr class="dropdown-divider"></a>
+  <!--This commint for Color-->
+<div class="container" id="Color"></div>
+<h2> Color</h2>
+<p>To color tables, table rows, or individual cells, use contextual classes.</p>
+<h4>Example</h4>
+
+<table class="table table-warning">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="container" id="Benefits">
+  <h2>Benefits</h2>
+  <p>
+    Cross-browser problems are less prevalent. <br>
+    Structures and styles that are responsive<br>
+    Documentation and community support are both excellent.<br>
+    jQuery is used by several JavaScript plugins.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

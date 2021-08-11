@@ -1,0 +1,122 @@
+
+* {
+    font-family: 'Raleway', sans-serif; /*all of the font style is Raleway*/
+}
+
+.logo {
+     width: 88px; /* the size of image */
+}
+
+/* hadeer/navegation */
+ul {
+    list-style-type: none;  /* this is for the li dot I dont want to show the dots  */
+    margin: 0 0; /* vertical: 0 | horizontal: 0 */
+    padding: 0;  /* All sides: 0 padding */
+    overflow: hidden;
+    background-color: #3C3B3A; /* Background-color of the all navbar */
+    text-decoration: none;
+  }
+
+li {
+    float: right;
+    display: flex;  /* using a flex  */
+    align-items: center; /* Pack items around the center */    
+    color: #f2f2f2;
+    padding: 14px 16px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center; /*text align*/
+    font-size: 16px;
+    padding: 16px 16px; /* vertical: 16px | horizontal 16px*/
+    text-decoration: none; /* I dont want to have lines under the text*/
+}
+
+main {
+    /* using a grid */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    padding: 122px 122px;
+}
+
+section h1 {
+    font-size: 72px;
+}
+
+section p {
+    font-size: 24px;
+}
+/* form */
+form {
+    width: 50%;
+    border-radius: 5px;
+    background-color:  #26A682;
+    padding: 20px;
+    box-shadow: 10px 10px 7px #144033;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #26A682;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 30%;
+    background-color: #3C3B3A;
+    color: white;
+    padding: 14px 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #F2F2F2;
+    color: #000;
+    transition: all 0.9s ease;    /* using animate */  
+}
+/* footer */
+footer {
+    display: flex;  /* using a flex  */
+    align-items: center; /* Pack items around the center */
+    justify-content: space-around; /* to space between the text */
+    padding: 10px 10px;
+    background-color: #3C3B3A;
+}
+
+.icons {
+    text-align: center; /* the text decration*/
+}
+
+@media(max-width: 570px){
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media(max-width: 768px){
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        width: 100%;
+    }
+}
